@@ -1,0 +1,14 @@
+body {
+  padding: 90px 0;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.main {
+    text-align: center;
+}
+
+.main img {
+    width: 200px;
+}
