@@ -33,6 +33,10 @@ h4 {
   font-size: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 form {
   background: #fff;
   width: 100%;
@@ -76,20 +80,6 @@ form {
   padding: 2rem 0;
 }
 
-@media screen and (min-width: 768px) {
-  .articles {
-    grid-template-columns: 1fr 1fr;
-  }
-  form {
-    max-width: 550px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .articles {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
 .error {
   text-align: center;
   text-transform: capitalize;
@@ -115,6 +105,11 @@ form {
   transition: 0.3s ease-in-out all;
 }
 
+p {
+  margin-bottom: 1.5rem;
+  max-width: 40em;
+}
+
 .articles a:hover {
   background: #222;
   color: #fff;
@@ -129,4 +124,18 @@ form {
   animation: spinner 0.6s linear infinite;
   margin: 0 auto;
   margin-top: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .articles {
+    grid-template-columns: 1fr 1fr;
+  }
+  form {
+    max-width: 550px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .articles {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
